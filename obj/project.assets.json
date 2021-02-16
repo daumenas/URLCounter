@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\daumi\\Source\\Repos\\URLCounter\\URLCounter\\URLCounter.csproj",
+      "projectUniqueName": "C:\\Users\\daumi\\source\\repos\\URLCounter\\URLCounter.csproj",
       "projectName": "URLCounter",
-      "projectPath": "C:\\Users\\daumi\\Source\\Repos\\URLCounter\\URLCounter\\URLCounter.csproj",
+      "projectPath": "C:\\Users\\daumi\\source\\repos\\URLCounter\\URLCounter.csproj",
       "packagesPath": "C:\\Users\\daumi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\daumi\\Source\\Repos\\URLCounter\\URLCounter\\obj\\",
+      "outputPath": "C:\\Users\\daumi\\source\\repos\\URLCounter\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\daumi\\AppData\\Roaming\\NuGet\\NuGet.Config",

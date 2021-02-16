@@ -1,0 +1,13 @@
+C:\Users\daumi\source\repos\URLCounter\bin\Debug\netcoreapp3.1\URLCounter.exe
+C:\Users\daumi\source\repos\URLCounter\bin\Debug\netcoreapp3.1\URLCounter.deps.json
+C:\Users\daumi\source\repos\URLCounter\bin\Debug\netcoreapp3.1\URLCounter.runtimeconfig.json
+C:\Users\daumi\source\repos\URLCounter\bin\Debug\netcoreapp3.1\URLCounter.runtimeconfig.dev.json
+C:\Users\daumi\source\repos\URLCounter\bin\Debug\netcoreapp3.1\URLCounter.dll
+C:\Users\daumi\source\repos\URLCounter\bin\Debug\netcoreapp3.1\URLCounter.pdb
+C:\Users\daumi\source\repos\URLCounter\obj\Debug\netcoreapp3.1\URLCounter.csprojAssemblyReference.cache
+C:\Users\daumi\source\repos\URLCounter\obj\Debug\netcoreapp3.1\URLCounter.AssemblyInfoInputs.cache
+C:\Users\daumi\source\repos\URLCounter\obj\Debug\netcoreapp3.1\URLCounter.AssemblyInfo.cs
+C:\Users\daumi\source\repos\URLCounter\obj\Debug\netcoreapp3.1\URLCounter.csproj.CoreCompileInputs.cache
+C:\Users\daumi\source\repos\URLCounter\obj\Debug\netcoreapp3.1\URLCounter.dll
+C:\Users\daumi\source\repos\URLCounter\obj\Debug\netcoreapp3.1\URLCounter.pdb
+C:\Users\daumi\source\repos\URLCounter\obj\Debug\netcoreapp3.1\URLCounter.genruntimeconfig.cache

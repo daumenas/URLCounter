@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TWkU5VibWAxW9phfTfWSZyinvJbaa3NaPL7Hff9l+RDxbZrW/CTOjRWBC0p+0T6zJ6sCf091ohRw223UVpU0UQ==",
+  "dgSpecHash": "nHeQHRu11zdlK/WU5qjcoYF0wBfK6KbeWy4f1n1P3D27+7ZPnu41Mj64qimFP//rce9bL6LevXc/W2RJMQUoiw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\daumi\\Source\\Repos\\URLCounter\\URLCounter\\URLCounter.csproj",
+  "projectFilePath": "C:\\Users\\daumi\\source\\repos\\URLCounter\\URLCounter.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
