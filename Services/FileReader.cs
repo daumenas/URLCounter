@@ -2,26 +2,43 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using System.Threading.Tasks;
+using URLCounter.Dto;
 
 namespace URLCounter
 {
-    class FileReader
+    class FileReader: IFileReader
     {
-        public void ReadFromFile(string fileName)
+        private readonly IRequestSender _requestSender;
+
+        public FileReader(IRequestSender requestSender)
         {
-            var lines = File.ReadLines(fileName);
+            _requestSender = requestSender;
+        }
+
+        public async void ReadFromFile(string fileName)
+        {
+            var lines = File.ReadLines("C:/Users/daumi/source/repos/URLCounter/" + fileName);
             foreach (var line in lines)
             {
-
+                var changes = await _requestSender.SendRequest(line);
+                if (changes.Error != null)
+                {
+                    WriteErrorsToFile(changes);
+                }
+                else
+                {
+                    WriteToFile(changes);
+                }
             }
         }
 
-        public void WriteToFile()
+        public void WriteToFile(GetRequestDto changes)
         {
 
         }
 
-        public void WriteErrorsToFile()
+        public void WriteErrorsToFile(GetRequestDto changes)
         {
 
         }

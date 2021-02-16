@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Net;
+using System.Net.Http;
 
 namespace URLCounter
 {
@@ -6,7 +8,10 @@ namespace URLCounter
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+                IRequestSender requestSender = new RequestSender();
+                IFileReader fileReader = new FileReader(requestSender);
+
+                fileReader.ReadFromFile("test.txt");
         }
     }
 }

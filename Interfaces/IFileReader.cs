@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace URLCounter.Interfaces
+﻿namespace URLCounter
 {
-    class IFileReader
+    public interface IFileReader
     {
+        void ReadFromFile(string fileName);
     }
 }
